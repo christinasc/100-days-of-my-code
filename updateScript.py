@@ -1,18 +1,23 @@
+'''
+This is a quick and dirty script to make it more efficient to update my log
+file for the 100days of code challenge. Got tired of repeatedly typing, so condensed
+the following commands to one call to this script - python updateScript.py 
+
+requires python 2.7.10. 
+
+for virtual env setup , requires 'source env/bin/activate'
+
+git checkout log.md
+emacs -nw log.md
+git commit -m "today'supdate" log.md
+git push
+
+'''
+
 from __future__ import print_function
 from subprocess import call
-import httplib2
 import os, argparse, re, time
-
 from sys import argv
-from oauth2client import client
-from oauth2client import tools
-from oauth2client.file import Storage
-
-try:
-    import argparse
-    flags = argparse.ArgumentParser(parents=[tools.argparser]).parse_args()
-except ImportError:
-    flags = None
 
 
 def line_prepender(filename, line):
@@ -20,7 +25,6 @@ def line_prepender(filename, line):
         content = f.read()
         f.seek(0, 0)
         f.write(line.rstrip('\r\n') + '\n' + content)
-
 
 def main():
     linebreak = "----------------------------"
@@ -39,9 +43,9 @@ def main():
     print(linebreak)
 
     ## prompt for entry
-    var = input("Please enter Today's Log Entry: ")
+    var = raw_input("Please enter Today's Log Entry: ")
     print("You Entered: ",  var)
-    confirm = input("CONFIRM: y/n? ")
+    confirm = raw_input("CONFIRM: y/n? ")
     if re.match( r"[Yy]", confirm):
         print("COMMITING to GITHUB")
         progressline = progressline + " "+var
@@ -55,6 +59,7 @@ def main():
     call(["head", "log.md"])
     call(["git", "commit", "-m", "log entry on "+now])
     call(["git", "push"]) 
+
 
 if __name__ == '__main__':
     main()
