@@ -60,11 +60,11 @@ def main():
     confirm = raw_input("CONFIRM: y/n? ")
     if re.match( r"[Yy]", confirm):
         print("COMMITING to GITHUB")
- #      call(["git", "checkout", "log.md"])
+        call(["git", "checkout", "log.md"])
         line_prepender("log.md", entry) 
         call(["head", "log.md"])
-#       call(["git", "commit", "-m", "log entry on "+now])
-#       call(["git", "push"]) 
+        call(["git", "commit", "-m", "log entry on "+now])
+        call(["git", "push"]) 
 
 
     else: 
