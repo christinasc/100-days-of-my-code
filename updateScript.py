@@ -30,11 +30,12 @@ def main():
     linebreak = "----------------------------"
     preamble = "# 100 Days Of Code - Log "
     dateline = "### Day "
-    progressline = "**Today's Progress**:"
+    progressline = "**Today's Progress**: "
+    thoughtline = "**Thoughts**: "
+    linkline= "**Link to work**: "
 
-    call(["ls", "-l"])
+ #   call(["ls", "-l"])
     call(["git", "status"])
-    call(["git", "checkout", "log.md"])
     print(linebreak)
 
     now = time.strftime("%c")
@@ -43,22 +44,33 @@ def main():
     print(linebreak)
 
     ## prompt for entry
-    var = raw_input("Please enter Today's Log Entry: ")
-    print("You Entered: ",  var)
+    log = raw_input("Please enter Today's Log Entry: ")
+    thought = raw_input("Thoughts: ")
+    link  = raw_input("Link to Work: ")
+
+    progressline = progressline +  log + "\n"
+    thoughtline  = thoughtline + thought + "\n"
+    linkline = linkline + link + "\n"
+
+    entry = preamble + "\n\n" + dateline + "\n" + progressline
+    entry = entry + thoughtline +  linkline + "\n" + linebreak
+
+    print("You Entered: \n",  entry)
+    
     confirm = raw_input("CONFIRM: y/n? ")
     if re.match( r"[Yy]", confirm):
         print("COMMITING to GITHUB")
-        progressline = progressline + " "+var
+ #      call(["git", "checkout", "log.md"])
+        line_prepender("log.md", entry) 
+        call(["head", "log.md"])
+#       call(["git", "commit", "-m", "log entry on "+now])
+#       call(["git", "push"]) 
+
+
     else: 
         print("aborting.....")
 
-    entry = linebreak + "\n"+ preamble + " \n" + dateline + "\n" + progressline + "\n" + linebreak + "\n"
-    print(entry)
 
-    line_prepender("log.md", entry)
-    call(["head", "log.md"])
-    call(["git", "commit", "-m", "log entry on "+now])
-    call(["git", "push"]) 
 
 
 if __name__ == '__main__':
