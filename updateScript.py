@@ -20,11 +20,32 @@ import os, argparse, re, time
 from sys import argv
 
 
+def get_entry_number(): 
+    headFile =""
+    count = 0
+    with open("log.md") as f:
+        headFile = (f.read(200))        
+
+    dayNumber = re.search(r"Day [0-9][0-9]:", headFile)
+    if dayNumber:
+        dayString = str(dayNumber.group(0))
+        dayArray = dayString.split()
+        dayNum = dayArray[1].split(':')
+        count = int(dayNum[0])
+        count = count + 1
+        print(" Matches:", dayNum[0], count)    
+    else: 
+        print(" no match ")
+
+    return count
+
+
 def line_prepender(filename, line):
     with open(filename, 'r+') as f:
         content = f.read()
         f.seek(0, 0)
         f.write(line.rstrip('\r\n') + '\n' + content)
+
 
 def main():
     linebreak = "----------------------------"
@@ -34,12 +55,15 @@ def main():
     thoughtline = "**Thoughts**: "
     linkline= "**Link to work**: "
 
- #   call(["ls", "-l"])
-  #  call(["git", "status"])
+#   call(["ls", "-l"])
+#   call(["git", "status"])
     print(linebreak)
 
     now = time.strftime("%c")
-    dateline = dateline + ": " + now
+    
+    entryNumber = get_entry_number()
+
+    dateline = dateline + str(entryNumber) +  ": " + now
     print(dateline)
     print(linebreak)
 
@@ -60,16 +84,11 @@ def main():
     confirm = raw_input("CONFIRM: y/n? ")
     if re.match( r"[Yy]", confirm):
         print("COMMITING to GITHUB THE FOLLOWING")
-#        os.system("git checkout log.md")
-#        call(["git", "commit", "-m", "log entry on "+now, "log.md"])
         line_prepender("log.md", entry) 
-        call(["head", "log.md"]
+        call(["head", "log.md"])
         call(["git", "commit", "-m", "log update on "+now, "log.md"])
         call(["git", "push"])
 
-#        os.system('head log.md')
-#        os.system('git commit -m \"log update\" log.md')
-#        os.system("git push")
 
 
     else: 
