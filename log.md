@@ -1,6 +1,14 @@
 # 100 Days Of Code - Log 
 
-### Day : Sun Jan 15 20:05:35 2017
+### Day 13: Mon Jan 16 10:08:58 2017
+**Today's Progress**: Added entry log number to update Script
+**Thoughts**: make the splitting of strings more elegant
+**Link to work**: github.com/christinasc
+
+----------------------------
+# 100 Days Of Code - Log 
+
+### Day 12: Sun Jan 15 20:05:35 2017
 **Today's Progress**: tried serverless. a lot of the documentation is off. so trying the awslabs serverless chatbots workshop to attempt to integrate facebook bot
 **Thoughts**:  documentation that is not up to date with existing commands can be frustrating
 **Link to work**: https://github.com/christinasc/serverless-chatbots-workshop
