@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day : Sun Jan 15 21:05:44 2017
+**Today's Progress**: this is a test
+**Thoughts**: test thoughts
+**Link to work**: github.com
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day : Sun Jan 15 20:05:35 2017
 **Today's Progress**: tried serverless. a lot of the documentation is off. so trying the awslabs serverless chatbots workshop to attempt to integrate facebook bot
 **Thoughts**:  documentation that is not up to date with existing commands can be frustrating
