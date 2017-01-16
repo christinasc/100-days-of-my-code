@@ -35,7 +35,7 @@ def main():
     linkline= "**Link to work**: "
 
  #   call(["ls", "-l"])
-    call(["git", "status"])
+  #  call(["git", "status"])
     print(linebreak)
 
     now = time.strftime("%c")
@@ -59,12 +59,17 @@ def main():
     
     confirm = raw_input("CONFIRM: y/n? ")
     if re.match( r"[Yy]", confirm):
-        print("COMMITING to GITHUB")
-        call(["git", "checkout", "log.md"])
+        print("COMMITING to GITHUB THE FOLLOWING")
+#        os.system("git checkout log.md")
+#        call(["git", "commit", "-m", "log entry on "+now, "log.md"])
         line_prepender("log.md", entry) 
-        call(["head", "log.md"])
-        call(["git", "commit", "-m", "log entry on "+now])
-        call(["git", "push"]) 
+        call(["head", "log.md"]
+        call(["git", "commit", "-m", "log update on "+now, "log.md"])
+        call(["git", "push"])
+
+#        os.system('head log.md')
+#        os.system('git commit -m \"log update\" log.md')
+#        os.system("git push")
 
 
     else: 
