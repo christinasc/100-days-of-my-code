@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 14: Wed Jan 18 22:19:03 2017
+**Today's Progress**: did some of the datacamp tutorials. updated the waterBill python script
+**Thoughts**: really tired and a little worried pre-ML seminar
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 13: Mon Jan 16 10:08:58 2017
 **Today's Progress**: Added entry log number to update Script
 **Thoughts**: make the splitting of strings more elegant
