@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 15: Thu Jan 19 20:38:50 2017
+**Today's Progress**: worked on configuring aws elastic beanstalk with farallonWaterBill repository. also created AWS code commit. eb init . studied python for data science. installed R and did beginner R tutorial. 
+**Thoughts**: a little concerned about have too many things on my plate. learning Node.js is also on the list. 
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 14: Wed Jan 18 22:19:03 2017
 **Today's Progress**: did some of the datacamp tutorials. updated the waterBill python script
 **Thoughts**: really tired and a little worried pre-ML seminar
