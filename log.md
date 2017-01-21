@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 16: Sat Jan 21 13:54:56 2017
+**Today's Progress**: attended Startup.ML conference. 
+**Thoughts**: so very tired from lack of sleep this week
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 15: Thu Jan 19 20:38:50 2017
 **Today's Progress**: worked on configuring aws elastic beanstalk with farallonWaterBill repository. also created AWS code commit. eb init . studied python for data science. installed R and did beginner R tutorial. 
 **Thoughts**: a little concerned about have too many things on my plate. learning Node.js is also on the list. 
