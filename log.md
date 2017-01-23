@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 17: Sun Jan 22 16:18:51 2017
+**Today's Progress**: Configure AWS Elastic beanstalk instance FarallonUtilities with RDS in order to store private login information for script. 
+**Thoughts**: very wet and rainy today. definitely a stay inside and code day
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 16: Sat Jan 21 13:54:56 2017
 **Today's Progress**: attended Startup.ML conference. 
 **Thoughts**: so very tired from lack of sleep this week
