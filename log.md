@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 19: Tue Jan 24 15:06:05 2017
+**Today's Progress**: having a lot of trouble trying to get RDS to work with python application for storing sensitive data for farallon water bill application. doing a lot of research and searching for tutorials today on how to get it to talk to either django or flask and RDS. 
+**Thoughts**: a little frustrated from the stuckage, but still trying to move forward
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 18: Mon Jan 23 16:30:53 2017
 **Today's Progress**: Received more wireless tags, installed some and updated script for the new tags. Also studied more of how to access mySQL datbases from AWS lambda function. 
 **Thoughts**: tired......
