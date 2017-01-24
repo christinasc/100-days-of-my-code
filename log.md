@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 18: Mon Jan 23 16:30:53 2017
+**Today's Progress**: Received more wireless tags, installed some and updated script for the new tags. Also studied more of how to access mySQL datbases from AWS lambda function. 
+**Thoughts**: tired......
+**Link to work**: https://www.isc.upenn.edu/accessing-mysql-databases-aws-python-lambda-function
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 17: Sun Jan 22 16:18:51 2017
 **Today's Progress**: Configure AWS Elastic beanstalk instance FarallonUtilities with RDS in order to store private login information for script. 
 **Thoughts**: very wet and rainy today. definitely a stay inside and code day
