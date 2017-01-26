@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 20: Wed Jan 25 18:04:50 2017
+**Today's Progress**: updated eysm logger for temperature logging, worked istalling numpy sci-py matplotlib
+**Thoughts**: worked at specialitys with connor which was fun. 
+**Link to work**: https://github.com/christinasc/eb-wirelesstag
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 19: Tue Jan 24 15:06:05 2017
 **Today's Progress**: having a lot of trouble trying to get RDS to work with python application for storing sensitive data for farallon water bill application. doing a lot of research and searching for tutorials today on how to get it to talk to either django or flask and RDS. 
 **Thoughts**: a little frustrated from the stuckage, but still trying to move forward
