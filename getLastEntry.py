@@ -6,7 +6,8 @@ from sys import argv
 def main():
     headFile =""
     with open("log.md") as f:
-        headFile = (f.read(200))        
+        headFile = (f.read(1000))        
+        print(headFile)
     dayNumber = re.search(r"Day [0-9][0-9]:", headFile)
     if dayNumber:
         dayString = str(dayNumber.group(0))
@@ -14,7 +15,7 @@ def main():
         dayNum = dayArray[1].split(':')
         count = int(dayNum[0])
         count = count +1
-        print(" Matches:", dayNum[0], count)
+        print(" Matches:", dayNum[0], "increment to:", count)
     else: 
         print(" no match ")
 
