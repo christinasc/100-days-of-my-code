@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 22: Fri Jan 27 13:40:28 2017
+**Today's Progress**: worked on example for how to deploy flask-aws-tutorial https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80#.26zbldy3a
+**Thoughts**: sunny bright day. 
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 21: Thu Jan 26 23:31:17 2017
 **Today's Progress**: fixed farallon water bill environment and script deployment so that it shows the webpage. one possible reason why it wasn't working before is that the html file wasn't referenced properly, i.e. "./index.html" seems to work
 **Thoughts**: really would like to deploy a django and/or flask application to elastic beanstalk soon. 
