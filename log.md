@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 21: Thu Jan 26 23:31:17 2017
+**Today's Progress**: fixed farallon water bill environment and script deployment so that it shows the webpage. one possible reason why it wasn't working before is that the html file wasn't referenced properly, i.e. "./index.html" seems to work
+**Thoughts**: really would like to deploy a django and/or flask application to elastic beanstalk soon. 
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 20: Wed Jan 25 18:04:50 2017
 **Today's Progress**: updated eysm logger for temperature logging, worked istalling numpy sci-py matplotlib
 **Thoughts**: worked at specialitys with connor which was fun. 
