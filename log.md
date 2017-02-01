@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 23: Tue Jan 31 23:35:24 2017
+**Today's Progress**: continue flask application on aws setup 
+**Thoughts**: past due for a code update
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 22: Fri Jan 27 13:40:28 2017
 **Today's Progress**: worked on example for how to deploy flask-aws-tutorial https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80#.26zbldy3a
 **Thoughts**: sunny bright day. 
