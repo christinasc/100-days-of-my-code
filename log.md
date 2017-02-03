@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 24: Thu Feb  2 16:15:04 2017
+**Today's Progress**: cleaned up html for farallonian. looking into email grab for pge data and posting it to index page. 
+**Thoughts**: need to be more consistent with 100 days, slippage this week. 
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 23: Tue Jan 31 23:35:24 2017
 **Today's Progress**: continue flask application on aws setup 
 **Thoughts**: past due for a code update
