@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 25: Fri Feb  3 17:07:00 2017
+**Today's Progress**: prepared installs for tensorflow with python3 on my laptop. Attending AI conference sat and sunday.
+**Thoughts**: exciting times. 
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 24: Thu Feb  2 16:15:04 2017
 **Today's Progress**: cleaned up html for farallonian. looking into email grab for pge data and posting it to index page. 
 **Thoughts**: need to be more consistent with 100 days, slippage this week. 
