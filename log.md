@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 26: Sat Feb  4 19:57:31 2017
+**Today's Progress**: attended demystifying deep learning conference.
+**Thoughts**: good review and overview
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 25: Fri Feb  3 17:07:00 2017
 **Today's Progress**: prepared installs for tensorflow with python3 on my laptop. Attending AI conference sat and sunday.
 **Thoughts**: exciting times. 
