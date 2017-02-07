@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 27: Mon Feb  6 22:24:37 2017
+**Today's Progress**: worked on encrypting and decrypting files in python
+**Thoughts**: sleepy, weather is wet and rainy
+**Link to work**: https://inventwithpython.com/hacking/chapter11.html
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 26: Sat Feb  4 19:57:31 2017
 **Today's Progress**: attended demystifying deep learning conference.
 **Thoughts**: good review and overview
