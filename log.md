@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 29: Thu Feb  9 13:43:57 2017
+**Today's Progress**: update for Feb 8, which was forgotten. started integrating prices into the front page for farallon utilities.
+**Thoughts**: long wet rainy day
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 28: Tue Feb  7 13:12:35 2017
 **Today's Progress**: updated AWS beanstalk applications for farallon utility bills, created gmail API pull framework for pge email, also added pyCrypto for simple encryption of files. added cold room to biochem cold monitoring php pages. Need to pull the cold room once a week to update the data. 
 **Thoughts**: second time around is easier, but also easy to forget how to create the client secret for the gmail API access and how to create the credentials. use "other" as the means for the client, don't use "web" 
