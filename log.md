@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 30: Fri Feb 10 23:58:18 2017
+**Today's Progress**: fixed water bill parsing so the account status shows up on the index page. 
+**Thoughts**: good
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 29: Thu Feb  9 13:43:57 2017
 **Today's Progress**: update for Feb 8, which was forgotten. started integrating prices into the front page for farallon utilities.
 **Thoughts**: long wet rainy day
