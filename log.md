@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 31: Sun Feb 12 00:49:36 2017
+**Today's Progress**: aes encoding integration with farallon water unit
+**Thoughts**: squeezing in late night
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 30: Fri Feb 10 23:58:18 2017
 **Today's Progress**: fixed water bill parsing so the account status shows up on the index page. 
 **Thoughts**: good
