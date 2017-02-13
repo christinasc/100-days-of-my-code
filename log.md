@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 32: Sun Feb 12 20:08:43 2017
+**Today's Progress**: cleaned up pge gmail so that it pull and get data. next is to keep history ID and only pull data from the latest email in under this label category. 
+**Thoughts**: moving right along... could use more hours in the day
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 31: Sun Feb 12 00:49:36 2017
 **Today's Progress**: aes encoding integration with farallon water unit
 **Thoughts**: squeezing in late night
