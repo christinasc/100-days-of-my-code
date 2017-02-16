@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 33: Wed Feb 15 23:11:14 2017
+**Today's Progress**: fix file handling in pge utils
+**Thoughts**: 
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 32: Sun Feb 12 20:08:43 2017
 **Today's Progress**: cleaned up pge gmail so that it pull and get data. next is to keep history ID and only pull data from the latest email in under this label category. 
 **Thoughts**: moving right along... could use more hours in the day
