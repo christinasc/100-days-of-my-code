@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 34: Fri Feb 17 15:35:16 2017
+**Today's Progress**: fixed error in pge utils script
+**Thoughts**: rainy
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 33: Wed Feb 15 23:11:14 2017
 **Today's Progress**: fix file handling in pge utils
 **Thoughts**: 
