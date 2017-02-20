@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 35: Mon Feb 20 13:43:50 2017
+**Today's Progress**: updated cron tabs for farallonian and eysm wireless tag to be once a year and once a month. aws is costing a lot more than i initially thought. trying to figure out what is adding to the cost. 
+**Thoughts**: wet and rainy today
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 34: Fri Feb 17 15:35:16 2017
 **Today's Progress**: fixed error in pge utils script
 **Thoughts**: rainy
