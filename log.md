@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log 
 
+### Day 36: Thu Feb 23 23:59:40 2017
+**Today's Progress**: read django tutorial. - python anywhere
+**Thoughts**: cold cold weather
+**Link to work**: 
+
+----------------------------
+# 100 Days Of Code - Log 
+
 ### Day 35: Mon Feb 20 13:43:50 2017
 **Today's Progress**: updated cron tabs for farallonian and eysm wireless tag to be once a year and once a month. aws is costing a lot more than i initially thought. trying to figure out what is adding to the cost. 
 **Thoughts**: wet and rainy today
